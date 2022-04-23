@@ -1,0 +1,136 @@
+body{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.192), rgba(0, 0, 0, 0.199)), url("../fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 150px;
+
+    
+}
+
+/* diseño del menu de navegación */
+
+.menu__nav{
+    background: rgba(44, 43, 43, 0.959);
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    margin-top: -150px;
+    
+}
+
+.listado__ul_responsive{
+    display: none;
+}
+
+.listado__ul{
+    padding-top: 25px;
+    float: right;
+    
+}
+
+.link__a{
+    color: #fff;
+    font-size: 13px;
+    font-family: sans-serif;
+    margin: 6px;
+    padding: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+
+.link__a:hover{
+    color: rgba(255, 255, 255, 0.609);
+    font-size: 13px;
+    font-family: sans-serif;
+    margin: 6px;
+    padding: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+/* diseño de login */
+
+.contenedor__login{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.952);
+    font-family: sans-serif;
+    border-radius: 20px;
+    
+    
+}
+
+.contenedor__login div{
+    margin: 70px 25px;
+    transition: all 500ms;
+    text-align: center;
+}
+
+.contenedor__formulario form h2{
+    color: rgba(224, 86, 0, 0.93);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.contenedor__formulario form input{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    font-size: 13px;
+    outline: none;
+    color: rgb(53, 53, 53);
+    font-weight: 400;
+}
+
+.contenedor__formulario form input::placeholder{
+    color: rgb(151, 150, 150);
+}
+
+.contenedor__formulario form button{
+    padding: 8px 25px;
+    margin-top: 25px;
+    border: none;
+    background-color: rgba(224, 86, 0, 0.93);
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    outline: none;
+    display: block;
+    left: 20px;
+}
+
+.contenedor__formulario form h4{
+    color: rgb(122, 122, 122);
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.portada_login{
+    width: 250px;
+}
+
+.portada_login h2{
+    font-size:18px;
+    color: rgb(151, 151, 151);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.icono__agenda{
+    width: 100px;
+    text-align: center;
+}
